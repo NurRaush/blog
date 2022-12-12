@@ -1,0 +1,75 @@
+.signIn {
+  width: 384px;
+  padding: 48px 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 60px auto;
+  background: #ffffff;
+  & .link {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+    &:active {
+      text-decoration: none;
+    }
+  }
+  & .title {
+    text-align: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 36px;
+  }
+  & .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21px;
+    & .label {
+      margin-left: auto;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #262626;
+    }
+    & .input {
+      width: 320px;
+      height: 40px;
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+
+    & .loginButton {
+      width: 320px;
+      height: 40px;
+      background: #1890ff;
+      border-radius: 4px;
+      text-align: center;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.err {
+  text-align: center;
+  background: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  height: 200px;
+  width: 940px;
+  border: 2px solid red;
+  color: red;
+}
